@@ -70,6 +70,6 @@ namespace Crud11.Pages
         private void BBack_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
-        }
+        } //
     }
 }
