@@ -1,0 +1,24 @@
+﻿<Application x:Class="Crud11.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Crud11"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="Background"
+                    Value="#fff9f1"/>
+            
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground"
+                    Value="#bacbd2"/>
+            
+        </Style>
+         <Style TargetType="Button">
+            <Setter Property="Background"
+                    Value="#e0dd46"/>
+            
+        </Style>
+        
+    </Application.Resources>
+</Application>
